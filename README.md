@@ -65,6 +65,7 @@ The following stretch goals were implemented
 - A div was set up for the 'announcer' with properties as suggested by the brief - When highlighting Narrator's focus on the whole page, it will automatically read the alt text description every time the image is changed
 
 <br>
+
 ### Extra
 
 Code designed to be as easy to read as possible, with minimum code per object method.
