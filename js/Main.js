@@ -167,6 +167,9 @@ export default class Main{
   }
 
 
+  // This function clears the borders of each displayed image in the navigation
+  // box. When it detects the current image displayed, it puts a blue box
+  // around it, to highlight that it is the currently displayed image.
   setImageParentBorderProperties(borderElement, counter){
     borderElement.className = "box";
     borderElement.style.display = "inline-flex";
