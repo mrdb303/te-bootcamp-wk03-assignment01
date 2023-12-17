@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+
+html {
+  background-color: grey;
+  font-size: 16px;
+  font-family: "Lato", Arial, Helvetica, sans-serif
+}
+
+
+h1 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 3px;
+  letter-spacing: 0.13rem;
+}
+
+.resp-img {
+  border: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+header {
+  position: fixed;
+  background-color: rgba(74, 74, 74, 0.75);
+  width: 16rem;
+  height: 2.2rem;
+  top: 0.5rem;
+  left: 0.5rem;
+  padding-left: 5px;
+  border-radius: 8px;
+}
+
+
+#alt-value {
+  width: 25rem;
+  height: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #1d1d1d;
+  color: white;
+  z-index: 1;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+
+nav {width: 100%;}
+
+
+#clickbtnl, #clickbtnr {
+  height: 1.7rem;
+  width: 2.8rem;
+  border: 1px grey solid;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #1d1d1d;
+  color: white;
+  font-size: 1rem;
+  margin: 5px;
+  vertical-align: bottom;
+  margin-bottom: 2rem;
+}
+
+
+#clickbtnl:hover, #clickbtnr:hover {
+  background-color: darkgreen;
+  transition: background-color 300ms linear;
+}
+
+
+#clickbtnl {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+
+#clickbtnr {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+
+.box-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.box {
+  display: inline-flex;
+  flex-direction: row;
+  height: 72px;
+  width: 107px;
+  border-style: none;
+  border-color: initial;
+}
+
+
+#thumb-browser{
+  position: fixed;
+  width: 402px;
+  height: 74px;
+  top: 3.5rem;
+  bottom: initial;
+  left: 0.5rem;
+  z-index: 1;
+  background-color: rgba(192,192,192,0.6);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+
+#all-images{
+  display: inline-block;
+  width: 324px;
+  z-index: 1;
+}
+
+
+.img-inst{
+  cursor: pointer;
+  padding: 2px; 
+  height: 70px;
+  width: 105px;
+}
+
+
+@media only screen and (max-width: 540px){
+
+  #thumb-browser{
+    width: 305px;
+    top: initial;
+    bottom: 2.8rem;
+    height: 54px;
+  }
+
+  #all-images{
+    width: 226px;
+  }
+
+  .img-inst{
+    height: 50px;
+    width: 75px;
+  }
+
+  .box {
+    height: 52px;
+    width: 75px;
+  }
+}
