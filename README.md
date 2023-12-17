@@ -71,10 +71,11 @@ The following stretch goals were implemented
 Code designed to be as easy to read as possible, with minimum code per object method.
 The main object is fed required image data contained in an object, to make it easier to add new images. This approach allows for the current image data object to be overwritten with data from a JSON object read via an API. Some of the property names match those used in unsplash API data to simplify adding extra functionality.
 <br>
+<br>
 
 ### Improvements for further releases
 
-If I was to develop this further, Id put the allImages object into a separate JSON file and read it as the page loads. This will make updating the available images even easier and remove the data from the code. Better still, the values could be read from a database. I'd also separate the dom writing to a class for view functionality, although this would probably be overkill for this project.
+If I was to develop this further, Id put the 'allImages' object into a separate JSON file and read it as the page loads. This will make updating the available images even easier and remove the data from the code. Better still, the values could be read from a database. I'd also separate the dom writing to a class for view functionality, although this would probably be overkill for this project.
 
 
 
