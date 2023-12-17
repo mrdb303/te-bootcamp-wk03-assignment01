@@ -64,7 +64,16 @@ The following stretch goals were implemented
 
 - A div was set up for the 'announcer' with properties as suggested by the brief - When highlighting Narrator's focus on the whole page, it will automatically read the alt text description every time the image is changed
 
+<br>
+### Extra
 
-### Issues
+Code designed to be as easy to read as possible, with minimum code per object method.
+The main object is fed required image data contained in an object, to make it easier to add new images. This approach allows for the current image data object to be overwritten with data from a JSON object read via an API. Some of the property names match those used in unsplash API data to simplify adding extra functionality.
+<br>
+
+### Improvements for further releases
+
+If I was to develop this further, Id put the allImages object into a separate JSON file and read it as the page loads. This will make updating the available images even easier and remove the data from the code. Better still, the values could be read from a database.
+
 
 

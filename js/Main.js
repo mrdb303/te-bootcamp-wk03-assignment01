@@ -17,6 +17,7 @@ export default class Main{
     this.srcSetVals = images[0].srcSetVals;
     this.path = images[0].path;
     
+    
     // Value Of thumbsOnPage sets how many images are displayed in the
     // navigation menu. However, if you need to increase the value, you need
     // to change the CSS file. More thumbnail images on the page will have
