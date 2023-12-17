@@ -58,7 +58,7 @@ When hovering the mouse over the left and right buttons , the colour of the back
 
 The following stretch goals were implemented
 
-- The page uses event listeners, including 'keydown' functionality; ArrowRight and ArrowLeft to step through images, while ArrowUp and ArrowDown flips the navigation box between the top and bottom of the page
+- The page uses event listeners, including 'keydown' functionality; ArrowRight and ArrowLeft to step through images, while ArrowUp and ArrowDown flips the navigation box between the top and bottom of the page - tab can be used to switch to the onscreen left and right buttons, but this is clunky as there doesn't seem to be a way to force where the tab is located and show where it is located on page load. 'Right' appears to be the logical place for the tab to start, as it isn't possible to move left from the first image displayed.
 
 - By using Windows 'Narrator' and clicking on the alt text description box at the bottom left of the page, Narrator announces the alt text of the selected image.
 
@@ -73,7 +73,7 @@ The main object is fed required image data contained in an object, to make it ea
 
 ### Improvements for further releases
 
-If I was to develop this further, Id put the allImages object into a separate JSON file and read it as the page loads. This will make updating the available images even easier and remove the data from the code. Better still, the values could be read from a database.
+If I was to develop this further, Id put the allImages object into a separate JSON file and read it as the page loads. This will make updating the available images even easier and remove the data from the code. Better still, the values could be read from a database. I'd also separate the dom writing to a class for view functionality, although this would probably be overkill for this project.
 
 
 
